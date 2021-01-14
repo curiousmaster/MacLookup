@@ -120,10 +120,11 @@ def main():
 
     # Loop through indata and lookup vendor
     for m in MAC:
-        mac = m[0].upper().replace(" ","")
+        macOrig = m[0]
+        mac = m[0].upper().replace(" ","").replace(":","").replace(".","").replace("-","")
         vendor = macLookup(mac)
 
-        print("{},\"{}\"".format(mac,vendor))
+        print("{},\"{}\"".format(macOrig,vendor))
 
 
 if __name__ == "__main__":
