@@ -1,0 +1,7 @@
+00059A:Cisco Systems, Inc
+005056:VMware, Inc.
+04ED33:Intel Corporate
+24B6FD:Dell Inc.
+2C44FD:Hewlett Packard
+302303:Belkin International Inc.
+8C8590:Apple, Inc.
